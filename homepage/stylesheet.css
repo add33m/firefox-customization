@@ -61,7 +61,7 @@ body {
 }
 
 #clock {
-  width: 100px;
+  width: 120px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 12px 1fr;
