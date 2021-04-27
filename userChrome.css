@@ -1,3 +1,27 @@
 .tab-line[selected="true"] {
   background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%) !important;
 }
+
+.tab-background {
+  margin: 1.5px !important;
+}
+
+.tabbrowser-tab {
+  padding: 0 !important;
+  margin: 2px !important;
+  margin-right: -1px !important;
+}
+
+.tabbrowser-tab[selected="true"] {
+  border-radius: .5em;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+}
+
+.tab-stack {
+  padding: 0 !important;
+  border-radius: inherit;
+}
+
+#tabs-newtab-button {
+  padding-left: 4px !important;
+}
